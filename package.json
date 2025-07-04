@@ -1,0 +1,23 @@
+{
+    "name": "vedic-astrology-api",
+    "version": "1.0.0",
+    "main": "dist/server.js",
+    "type": "module",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/server.js",
+      "dev": "ts-node src/server.ts"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "vedic-astrology": "^1.0.6"
+    },
+    "devDependencies": {
+      "@types/cors": "^2.8.13",
+      "@types/express": "^4.17.21",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.4.3"
+    }
+  }
+  
